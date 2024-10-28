@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   
+   
+   .body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .logo{
+      width: 80px;
+  }
+  
+   .logo img{
+      width: 100%;
+  }
+  
+  header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      background-color: #F5F5F5;
+      padding: 0;
+      margin: 0;
+      padding: 0.45rem;
+  }
+  
+  
+  
+  nav ul{
+      display: flex;
+      list-style: none;
+      gap: 1.2rem;
+      font-size: 1.2rem;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      align-items: center;
+  }
+  
+     nav ul li a{
+      text-decoration: none;
+      color: #151B54;
+  }
+  
+
+.Project-container{
+    text-align: center;
+    padding-top: 130px;
+}
+
+  .Project-container h1{
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    color: #151B54;
+  }
+
+ .sub-project-container{
+  width: 100%;
+  display: flex;
+  padding-top: 30px;
+}
+
+ .project-image{
+  width:90%;
+  padding-bottom: 80px;
+
+}
+
+  .project-image img{
+   width: 70%;
+    height: 106%;
+  margin-left: 250px;
+}
+
+  .project-content h1{
+  
+    font-size: 3rem;
+    padding-left: 50px;
+    color: #151B54;
+    padding-top: 110px;
+   
+
+}
+
+ .project-content h3{
+  width: 120%;
+    font-size: 1.2rem;
+    font-weight: 200;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.box-container{
+    display: flex;
+    padding-bottom: 2%;
+    background-color: #000;
+    padding-left:40px;
+    padding-right: 20px;
+    padding-top: 50px;
+    gap: 80px;
+    height: 60vh;
+   }
+   
+    .logotwo{
+      width:100px;
+     
+   
+   }
+   
+    .logotwo img{
+     width: 100%;
+   
+   }
+   
+    .box h1{
+     color: #F5F5F5;
+     font-size: 1.3rem;
+   }
+   
+   .footer .box a{
+     font-size: 1.1rem;
+     color: #fff;
+     padding-top:30px;
+     line-height: 1.4;
+     position: 500px;
+     text-decoration: none;
+     
+   }
+   .box{
+     list-style: none;
+     padding-left:40px;
+   
+   }
+   
+    .copyright-container p{
+      text-align: center;
+      color: #fff;
+      border-top: 2px solid #333673;
+      padding-top: 10px;
+      background-color: #000;
+    }
